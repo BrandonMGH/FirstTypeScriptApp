@@ -23,3 +23,13 @@ class Cat {
 const Sinatra = new Cat (1,"Sinatra",2, 10)
 
 Sinatra.getInfo()
+
+let wrapinArray = function(param: string | number | boolean) {
+    if(typeof param === "string"){
+        return [param]
+    }else {
+        return param
+    }
+}
+
+console.log(wrapinArray("Deborah"))

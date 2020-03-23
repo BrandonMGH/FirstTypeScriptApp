@@ -12,3 +12,12 @@ var Cat = /** @class */ (function () {
 }());
 var Sinatra = new Cat(1, "Sinatra", 2, 10);
 Sinatra.getInfo();
+var wrapinArray = function (param) {
+    if (typeof param === "string") {
+        return [param];
+    }
+    else {
+        return param;
+    }
+};
+console.log(wrapinArray("Deborah"));
