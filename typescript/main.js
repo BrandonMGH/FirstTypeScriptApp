@@ -20,4 +20,9 @@ var wrapinArray = function (param) {
         return param;
     }
 };
-console.log(wrapinArray("Deborah"));
+var numArr = [1, 2, 3];
+var domTest = function (param) {
+    return param;
+};
+document.body.textContent = domTest("Deborah");
+

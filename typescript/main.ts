@@ -32,4 +32,10 @@ let wrapinArray = function(param: string | number | boolean) {
     }
 }
 
-console.log(wrapinArray("Deborah"))
+let numArr: Array<number> = [1,2,3]
+
+let domTest = (param: string) => {
+    return param
+}
+
+document.body.textContent = domTest("Deborah");
