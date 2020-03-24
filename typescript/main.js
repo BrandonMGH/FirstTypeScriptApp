@@ -1,3 +1,7 @@
+var buttonTest = function () {
+    var inputValue = document.getElementById("testInput").value;
+    console.log(inputValue);
+};
 var Cat = /** @class */ (function () {
     function Cat(id, name, weight, height) {
         this.id = id;
@@ -25,4 +29,3 @@ var domTest = function (param) {
     return param;
 };
 document.body.textContent = domTest("Deborah");
-

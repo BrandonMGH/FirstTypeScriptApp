@@ -1,4 +1,8 @@
 
+let buttonTest = ():void => {
+    let inputValue = (<HTMLInputElement>document.getElementById("testInput")).value
+    console.log(inputValue)
+}
 class Cat {
     id: number;
     name: string; 
