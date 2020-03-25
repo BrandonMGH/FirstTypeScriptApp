@@ -1,6 +1,7 @@
 var buttonTest = function () {
     var inputValue = document.getElementById("testInput").value;
     console.log(inputValue);
+    document.body.textContent = inputValue;
 };
 var Cat = /** @class */ (function () {
     function Cat(id, name, weight, height) {
